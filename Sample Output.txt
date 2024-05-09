@@ -1,0 +1,114 @@
+----------------
+|SAMPLE OUTPUT:|
+----------------
+
+
+Kerala Bank e-Service Portal
+============================
+
+SELECT AN OPTION FROM THE FOLLOWING MENU
+CHOICE  | OPTION
+----------------------
+1       | EXISTING CUSTOMER (LOGIN)     
+2       | NEW CUSTOMER (CREATE ACCOUNT) 
+x       | EXIT APPLICATION
+
+ENTER YOUR CHOICE:1
+ENTER YOUR 10 DIGIT ACCOUNT NUMBER:1000010001
+ENTER YOUR 4 DIGIT SECRET PIN:2345
+
+Welcome ABHIRAM KRISHNA
+
+SELECT AN OPTION FROM THE FOLLOWING MENU
+CHOICE  | OPTION
+----------------------
+1       | CHECK BALANCE
+2       | CASH DEPOSIT
+3       | CASH WITHDRAWAL
+x       | LOGOUT
+
+ENTER YOUR CHOICE:2
+ENTER AMOUNT:10000
+Deposit successful
+Account No.: xxxxxx0001
+Balance:10000
+
+SELECT AN OPTION FROM THE FOLLOWING MENU
+CHOICE  | OPTION
+----------------------
+1       | CHECK BALANCE
+2       | CASH DEPOSIT
+3       | CASH WITHDRAWAL
+x       | LOGOUT
+
+ENTER YOUR CHOICE:3
+ENTER AMOUNT:1000
+Withdrawal successful
+Account No.: xxxxxx0001
+Balance:9000
+
+SELECT AN OPTION FROM THE FOLLOWING MENU
+CHOICE  | OPTION
+----------------------
+1       | CHECK BALANCE
+2       | CASH DEPOSIT
+3       | CASH WITHDRAWAL
+x       | LOGOUT
+
+ENTER YOUR CHOICE:1
+Account No.: xxxxxx0001
+Balance:9000
+
+SELECT AN OPTION FROM THE FOLLOWING MENU
+CHOICE  | OPTION
+----------------------
+1       | CHECK BALANCE
+2       | CASH DEPOSIT
+3       | CASH WITHDRAWAL
+x       | LOGOUT
+
+ENTER YOUR CHOICE:x
+----Logging out----
+
+SELECT AN OPTION FROM THE FOLLOWING MENU
+CHOICE  | OPTION
+----------------------
+1       | EXISTING CUSTOMER (LOGIN)
+2       | NEW CUSTOMER (CREATE ACCOUNT)
+x       | EXIT APPLICATION
+
+ENTER YOUR CHOICE:2
+Enter your details to create new account
+ENTER YOUR NAME:BIJIN A K
+ENTER YOUR DATE OF BIRTH [dd/mm/yyyy]:01/02/1997
+SET A 4 DIGIT PIN TO LOGIN TO E-ACCOUNT
+ENTER PIN:7896
+CONFIRM PIN:7896
+PIN SET SUCCESSFULLY
+Enter account type ['s' for savings 'c' for current]:c
+ACCOUNT CREATION SUCCESSFUL
+
+BIJIN A K your account number is
+1000010002
+
+PLEASE LOGIN USING CREDENTIALS TO PERFORM TRANSACTIONS
+
+SELECT AN OPTION FROM THE FOLLOWING MENU
+CHOICE  | OPTION
+----------------------
+1       | EXISTING CUSTOMER (LOGIN)
+2       | NEW CUSTOMER (CREATE ACCOUNT)
+x       | EXIT APPLICATION
+
+ENTER YOUR CHOICE:x
+---Thank you for visiting Kerala Bank e-portal----
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------
+|ACCOUNT DETAILS FILE:|
+-----------------------
+
+1000010000,AKSHAY K P,6000,04/01/1996,1234,SAVING
+1000010001,ABHIRAM KRISHNA,9000,19/08/1996,2345,SAVINGS
+1000010002,BIJIN A K,0,01/02/1997,7896,CURRENT
+
