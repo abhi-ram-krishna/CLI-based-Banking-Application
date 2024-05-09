@@ -55,6 +55,7 @@ else:
 				break
 			elif type=='c':
 				acc_type='CURRENT'
+				break
 			else:
 				print("Error: Invalid choice")
 		
